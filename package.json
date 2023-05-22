@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "tsx index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}
