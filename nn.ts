@@ -225,11 +225,8 @@ async function run() {
     for (let imagePathIdx = 0; imagePathIdx < imagePaths.length; imagePathIdx++) {
       const img = await readPixelsFromImage(imagePaths[imagePathIdx]);
 
-
       const target = img.slice(0, 9);
       const image = img.slice(16);
-
-      console.log(target, image.length)
 
       const train = feedForward(image, target);
 
